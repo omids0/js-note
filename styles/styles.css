@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.noteApp {
+    min-width: 28rem;
+    width: 100%;
+    max-width: 45rem;
+    padding: 1rem;
+    margin: 0 1.6rem 0 1rem;
+}
+
+.taskBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1.2rem;
+}
+
+.search{
+    padding: .8rem;
+    font-size: 1.4rem;
+    min-height: 3rem;
+    min-width: 22rem;
+    background: #222222;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.plus{
+    font-size: 2rem;
+    color: white;
+    background: orange;
+    min-width: 3rem;
+    min-height: 3rem;
+    border-radius: 100%;
+    border: none;
+}
+
+.noteList {
+    margin: 1rem 0;
+}
+
+.msg {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.emptyMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.selectNote{
+    text-decoration: none;
+}
+
+.note {
+    background: #222222;
+    min-height: 8rem;
+    max-height: 8rem;
+    padding: .8rem;
+    margin-top: .5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.noteTitel {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin: .3rem .3rem 1rem .3rem;
+}
+
+.noNoteTitel {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.3);
+    margin: .3rem .3rem 1rem .3rem;
+}
+
+.description{
+    font-size: 1.4rem;
+    word-break: break-word;
+    color: rgba(255, 255, 255, 0.4);
+    margin: .3rem .3rem 1rem .3rem;
+}
+
+.noDescription {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.1);
+    margin: .3rem .3rem 1rem .3rem;
+}
+
+.editOrAdd{
+    min-width: 28rem;
+    width: 100%;
+    max-width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .2rem;
+}
+
+.editOrAdd-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editOrAdd-buttons-save {
+    background: none;
+    border: none;
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: orange;
+    margin: 1rem;
+}
+
+.editOrAdd-buttons-remove {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: red;
+    margin: 1rem;
+}
+
+.editOrAdd-title {
+    padding: .6rem;
+    font-size: 2.6rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.editOrAdd-body {
+    padding: .6rem;
+    font-size: 1.8rem;
+    min-height: 40rem;
+    background: none;
+    border: none;
+    color: white;
+}
